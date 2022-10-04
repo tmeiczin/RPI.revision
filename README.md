@@ -33,7 +33,7 @@ To decode any Raspbery Pi revision, it can be based into Revision upon instantia
 
 The CPU information can be retrieved:
 ```
->>>  from RPi.revision import CpuInfo, Revision
+>>> from RPi.revision import CpuInfo, Revision
 >>> CpuInfo().asdict()
 {'hardware': 'BCM2835', 'serial': '10000000a311552c', 'revision': 'b03111', 'model': 'Raspberry Pi 4 Model B Rev 1.1', 'cpu_count': 4}
 ```
